@@ -1,0 +1,3 @@
+* What is this program?
+- With this streamlit app you can chat with your markdown files in the /data/ folder.
+- You need an openai_key.
