@@ -4,7 +4,7 @@ from llama_index.llms import OpenAI
 import openai
 from llama_index import SimpleDirectoryReader
 
-st.set_page_config(page_title="Amerikanische Geschichte", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_title="Amerikanische Geschichte", page_icon="📜", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
 # Abfrage des OpenAI API-Schlüssels mithilfe eines Eingabefelds
 openai_key = st.text_input("Bitte gib deinen OpenAI API-Schlüssel ein:", type="password")
