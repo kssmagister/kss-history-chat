@@ -4,6 +4,7 @@ from llama_index.llms import OpenAI
 import openai
 from llama_index import SimpleDirectoryReader
 
+st.title("KSS-history-chat")
 st.set_page_config(page_title="Amerikanische Geschichte", page_icon="🧠", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
 # Abfrage des OpenAI API-Schlüssels mithilfe eines Eingabefelds
@@ -16,7 +17,7 @@ if not openai_key:
 
 openai.api_key = openai_key
 
-st.title("Amerikanische Geschichte")
+# st.title("Amerikanische Geschichte")
 
 if "messages" not in st.session_state.keys(): 
     st.session_state.messages = [
